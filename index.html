@@ -25,6 +25,7 @@
                     <label>Sobrenome</label>
                     <input type="text" name="sobrenome" id="sobrenome">
                 </div>
+            </fieldset>
 
                 <div>
                     <label>Email</label>
@@ -46,10 +47,43 @@
 
                 <div>
                     <label>Senioridade</label>
-                    <select name="" id="senioridade"></select>
+                    <select id="senioridade">
+                        <option selected disabled value="">Escolha</option>
+                        <option>Junior</option>
+                        <option>Pleno</option>
+                        <option>Senior</option>
+                    </select>
                 </div>
-            </fieldset>
-        </form>
 
+                <fieldset>
+                    <div>
+                        <label>Selecione as tecnologias que você utiliza:</label><br><br>
+                        <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+                        <label for="tecnologia1">HTML</label>
+                        <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+                        <label for="tecnologia2">CSS</label>
+                        <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JS">
+                        <label for="tecnologia3">JS</label>
+                        <input type="checkbox" name="tecnologia4" id="tecnologia4" value="Pyhton">
+                        <label for="tecnologia4">Python</label>
+                        <input type="checkbox" name="tecnologia5" id="tecnologia5" value="IA">
+                        <label for="tecnologia5">IA</label>
+                        <input type="checkbox" name="tecnologia6" id="tecnologia6" value="Banco de Dados">
+                        <label for="tecnologia6">Banco de Dados</label>
+                        <input type="checkbox" name="tecnologia7" id="tecnologia7" value="Java">
+                        <label for="tecnologia7">Java</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <br>
+                    <label>Fale-me um pouco da sua experiência.</label>
+                    <textarea row="6" style= "width: 26em" id="experiencia" name="experiencia"></textarea>
+                </div>
+            
+                <button type="submit">Finalizado</button>
+
+        </form>
+        
     </body>
 </html>
